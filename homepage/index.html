@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <title>Michael Santos</title>
 </head>
 <body>
     <header>
-        <h1>Michael Santos</h1>
+        <h1 id="title">Michael Santos</h1>
     </header>
     <section>
         <header>
-            <h2>Posts</h2>
+            <h2 class="subtitle">Posts</h2>
         </header>
-        <article>
+        <article class="post">
             <header>
-                <h3>Post #1</h3>
-                <img src="./assets/media/header-article-1000x600.jpg" alt="código html mostrada na tela de um notebook" width="600px">
+                <h3 class="post_title">Post #1</h3>
+                <picture> 
+                    <source media="(max-width: 750px)" srcset="./assets/media/header-article--300x300.jpg" type="image/jpg">
+                    <source media="(max-width: 1050)" srcset="./assets/media/header-article--700x700.jpg" type="image/jpg">
+                    <img class="post_image" src="./assets/media/header-article-1000x600.jpg" alt="código html mostrada na tela de um notebook" width="600px">  
+                </picture>
             </header>
-            <p>
+            <p class="post_content">
                 Lorem ipsum, dolor <a href="https://github.com/michaelmdrs" target="_blank">git</a> amet consectetur adipisicing elit. Quae incidunt ex debitis exercitationem, deserunt explicabo magnam doloremque? Consequatur, ipsum doloribus? Veritatis possimus earum laudantium ad repellendus minima ullam architecto illo!
             </p>
         </article>
