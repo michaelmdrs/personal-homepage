@@ -1,5 +1,47 @@
 
+/* Exemplos de date
 
+var hoje = new Date()
+alert(hoje.getDay())
+alert(hoje.getHours())
+alert(hoje.getTime())
+alert(hoje.getMinutes())
+*/
+
+/* For
+
+ * var count;
+    for (count = 0; count <= 5; count++) {
+    alert(count)
+}
+  
+ */
+
+
+
+/* While
+
+var count = 0
+while (count < 5) {
+    console.log(count)
+    count = count + 1
+}
+
+*/
+
+/* Condição simples
+
+var idade = prompt('Digite sua idade: ')
+if (idade >= 18) {
+    alert('Maior de idade')
+}else {
+    alert('Menor de idade')
+}
+
+*/
+
+
+// Comandos básicos
 
 /* Lista de dicionário
 
