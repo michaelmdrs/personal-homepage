@@ -1,3 +1,50 @@
+
+function load() {
+    alert('Carregamento concluído')
+}
+
+function button() {
+    document.getElementById('resultclick').innerHTML = 'Bem vindo ao site!'
+    //alert('Obrigado, por clicar')
+}
+
+function redirect() {
+    window.open('https://github.com/michaelmdrs')
+    // window.location.href = 'https://github.com/michaelmdrs' abre o link na mesma página
+}
+
+function move(elemento) {
+    //document.querySelector('.mouse').innerHTML = '<strong>Passe o mouse aqui e clique</strong>'
+    elemento.innerHTML = 'Passe o mouse aqui e clique'
+    
+}
+
+function moveOut(elemento) {
+    //document.querySelector('.mouse').innerHTML = '<strong>Entra o texto</strong>'
+    elemento.innerHTML = 'Entra o texto'
+}
+
+function moveUp(elemento) {
+    //document.querySelector('.mouse').innerHTML = 'Clique'
+    elemento.innerHTML = 'Clica'
+}
+
+function changeValue(elemento) {
+    console.log(elemento.value)
+}
+
+/**
+ * function moveOut(elemento) {
+    document.querySelector('.mouse').innerHTML = '<strong>Entra o texto</strong>'
+}
+
+function moveUp(elemento) {
+    document.querySelector('.mouse').innerHTML = 'Clique'
+}
+ * 
+ */
+ 
+
 /* Basico de função
 
 function soma(n1, n2) {
