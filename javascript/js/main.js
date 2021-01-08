@@ -1,3 +1,25 @@
+/* Basico de função
+
+function soma(n1, n2) {
+    return n1 + n2
+}
+
+var validar = 0
+
+function validaIdade(idade) {
+    if (idade >= 18) {
+        validar = console.log('Você é de MAIOR')
+    } else {
+        validar = console.log('Você é de MENOR')
+    }
+}
+
+var idade = prompt('Digite sua idade: ')
+validaIdade(idade)
+
+// alert(soma(4, 11))
+
+*/
 
 /* Exemplos de date
 
