@@ -22,3 +22,12 @@ console.log('\nRetorna um novo objeto mergeando dois ou mais objetos', Object.as
 const newObj = { foo: 'bar' }
 Object.freeze(newObj)
 
+// Permite apenas a alteração de propriedades existentes em um objeto
+const person = { name: 'Qualquer' }
+Object.seal(person)
+
+person.name = 'Usuario'
+// delete person.name (Não consegue deletar nem criar novas propriedades)
+// person.age = 31
+
+console.log('\nVariavel person após as alterações:', person)
